@@ -12,12 +12,12 @@ public class SmokeTest extends Base {
 
     @Test
     void Smoke2() {
-        Assert.assertEquals(6, 3 * 2, "Should equal 6");
+        Assert.assertEquals(5, 3 * 2, "Should equal 6");
     }
 
     @Test
     void Smoke3() {
-        Assert.assertEquals(0, 2 * 5, "Should equal 10");
+        Assert.assertEquals(10, 2 * 5, "Should equal 10");
     }
 
 
