@@ -172,7 +172,7 @@ public class Base {
         String Filter = PathNameFilter(fileResult.toString());
 
         // WriteYaml.put("file", fileResult);
-        WriteYaml.put("file", System.getProperty("user.dir") + "\\report_sample\\" + Filter);
+        WriteYaml.put("file", System.getProperty("user.dir") + "\\report_sample\\TEST-TestSuite.xml");
 
         // to ordere the values as given
         final DumperOptions options = new DumperOptions();
