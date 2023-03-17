@@ -6,11 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import org.testng.annotations.Optional;
 import org.yaml.snakeyaml.*;
-
 import javax.swing.*;
 import java.io.*;
-
-
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -119,7 +116,7 @@ public class Base {
     public void TestrailUpdateCSVtoYml(@Optional("no suite name") String suiteXmlFile) throws Exception {
         File appsFolder = new File(suiteXmlFile);
 
-        final String YamlPfad = System.getProperty("user.dir") + "\\trcli-config2.yml";
+        final String YamlPfad = System.getProperty("user.dir") + "/trcli-config2.yml";
 
         //System.out.println(suiteXmlFile);
 
