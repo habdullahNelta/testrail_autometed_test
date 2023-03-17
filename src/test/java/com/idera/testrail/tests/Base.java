@@ -35,9 +35,9 @@ public class Base {
 
     protected Map<String, Integer> ImportFilterCSV(String suiteXmlFile) throws Exception {
 
-        Map<String, Integer> IDsMap = new HashMap<>();
+        Map<String, Integer> IDsMap = new HashMap<String, Integer>();
         // to read the value from csv
-        CSVReader reader = new CSVReader(new FileReader(System.getProperty("user.dir") + "\\Test_CSV.csv"));
+        CSVReader reader = new CSVReader(new FileReader(System.getProperty("user.dir") + "/Test_CSV.csv"));
 
         String[] nextLine;
         int Run_ID_Var = 0;
@@ -119,7 +119,7 @@ public class Base {
     public void TestrailUpdateCSVtoYml(@Optional("no suite name") String suiteXmlFile) throws Exception {
         File appsFolder = new File(suiteXmlFile);
 
-        final String YamlPfad = System.getProperty("user.dir") + "\\trcli-config2.yml";
+        final String YamlPfad = System.getProperty("user.dir") + "/trcli-config2.yml";
 
         //System.out.println(suiteXmlFile);
 
@@ -175,7 +175,7 @@ public class Base {
         String Filter = PathNameFilter(fileResult.toString());
 
         // WriteYaml.put("file", fileResult);
-        WriteYaml.put("file", System.getProperty("user.dir") + "\\report_sample\\" + Filter);
+        WriteYaml.put("file", System.getProperty("user.dir") + "/report_sample/TEST-TestSuite.xml");
 
         // to ordere the values as given
         final DumperOptions options = new DumperOptions();

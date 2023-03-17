@@ -1,8 +1,8 @@
-host: https://esteventester.testrail.io
+host: https://maneger765.testrail.io
 project: test
-username: atharv.esteven@foundtoo.com
-key: /2HLUtQj8Lftji0KqynP-tDOf/YIPzEDaDRaPAXU6
-title: MultiplicationTest.xml
-run_id: 39
-suite_id: 27
-file: C:\Users\Hasan Abdullah\Desktop\testrail_autometed_test\report_sample\MultiplicationTest.xml
+username: maneger765@huvacliq.com
+key: xWg1.dMmOREKsZ6Lf1su-4RtPW3IZsh0be1OagZiU
+title: SmokeTest.xml
+run_id: 8
+suite_id: 6
+file: C:\Users\Hasan Abdullah\IdeaProjects\testng/report_sample/TEST-TestSuite.xml
