@@ -1,7 +1,6 @@
 host: https://maneger765.testrail.io
 project: test
 username: maneger765@huvacliq.com
-key: xWg1.dMmOREKsZ6Lf1su-4RtPW3IZsh0be1OagZiU
 title: SmokeTest.xml
 run_id: 8
 suite_id: 6
