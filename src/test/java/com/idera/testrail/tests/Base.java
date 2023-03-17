@@ -139,7 +139,7 @@ public class Base {
         final Object host = ReadYaml.get("host");
         final Object project = ReadYaml.get("project");
         final Object username = ReadYaml.get("username");
-        final Object key = ReadYaml.get("key");
+      //  final Object key = ReadYaml.get("key");
         final Object title = SuiteNameFiltered;
         final int run_id = SuiteAndRunID.get("Run_ID_Var");
         final int suite_id = SuiteAndRunID.get("Suite_ID_Var");
@@ -150,7 +150,7 @@ public class Base {
         WriteYaml.put("host", host);
         WriteYaml.put("project", project);
         WriteYaml.put("username", username);
-        WriteYaml.put("key", key);
+      //  WriteYaml.put("key", key);
         WriteYaml.put("title", title);
         // update run_id and suite_id
         if (run_id != 0 && suite_id != 0) {
