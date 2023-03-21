@@ -22,7 +22,7 @@ public class PlayerRegressionTest extends Base{
       //  String   testSuiteName = iTestContext.getSuite().getName().replaceAll("[ (\\d)]", "");
        // String    testName = iTestContext.getCurrentXmlTest().getName();
        // System.out.println(testSuiteName+"  "+testName);
-        Assert.assertEquals(4, 2*2, "Should equal 4");
+        Assert.assertEquals(6, 2*2, "Should equal 4");
 
     }
 
